@@ -1,0 +1,246 @@
+/* Home Banner carousel */
+.css .carousel-item {
+  position: relative;
+
+  display: none;
+  transition: transform 0.5s;
+}
+
+.carousel-item.active {
+  display: block;
+  transform: translateX(0);
+}
+
+.carousel-inner {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.banner-bottom-line {
+  width: 520px;
+  height: 2px;
+  color: #b9fd0b;
+  background-color: #b9fd0b;
+}
+
+.slider-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 10px;
+  line-height: 30px;
+  border-radius: 5px;
+  color: #b9fd0b;
+  font-family: "SF ethnocentric-cufonfonts", Arial, sans-serif;
+}
+
+.slider-text p {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0px;
+  color: #ffffff;
+  font-family: "SF Poppins-Regular", Arial, sans-serif;
+}
+
+
+.mobile-banner-img {
+  display: none;
+}
+
+.global-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.global-container img {
+  width: 100%;
+  height: 570px;
+}
+
+.global-desktop-banner {
+  display: block;
+}
+
+.global-mobile-banner {
+  display: none;
+}
+
+/* Banner Image-Text Section CSS code start from here */
+
+.global-tech-bg {
+  background-color: #e6e7e8;
+  margin: 30px 0px;
+}
+
+.global-tech {
+  display: flex;
+  align-items: center;
+}
+
+.global-content-title {
+  font-size: 30px;
+  line-height: 64px;
+  color: #332D2D;
+  margin-bottom: 10px;
+  text-align: start;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+
+}
+
+.global-content-description {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: start;
+  font-size: 16px;
+  font-family: "SF nexa-light", Arial, sans-serif;
+}
+
+.global-content-sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.global-tech-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-tech-logo img {
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* add @media quries start here */
+
+@media (max-width: 1400px) {
+  .content-title {
+    font-size: 34px;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  .global-container {
+    margin-top: 70px;
+  }
+
+  .global-content-title {
+    text-align: center;
+  }
+
+  .global-content-description {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .carousel-text {
+    font-size: 25px;
+  }
+
+  .tech-logo img {
+    max-width: 100%;
+  }
+
+  .content-description-align {
+    text-align: center;
+  }
+
+
+  .global-content-title-align {
+    text-align: center;
+  }
+
+  .global-content-sub-align {
+    text-align: center;
+  }
+
+  .global-tech {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .global-tech-logo {
+    margin: 10px 0px;
+  }
+
+  .global-content-title {
+    font-size: 35px;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+  .carousel-text {
+    font-size: 22px;
+  }
+
+  .global-content-title {
+    font-size: 27px;
+  }
+
+  .global-content-description {
+    font-size: 14px;
+  }
+
+  .col {
+    flex: unset !important;
+  }
+
+  .global-desktop-banner {
+    display: none;
+  }
+
+  .global-mobile-banner {
+    display: block;
+  }
+
+  .image-container img {
+    height: 450px;
+  }
+
+  .global-container img {
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel-text {
+    font-size: 20px;
+    padding: 0px 0.5rem;
+  }
+
+  .g-map {
+    margin: 0px 5px;
+  }
+
+  .global-content-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}

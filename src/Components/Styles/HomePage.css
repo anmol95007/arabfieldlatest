@@ -1,0 +1,439 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+  background-image: linear-gradient(
+    86.3deg,
+    rgb(14, 28, 35) 3.6%,
+    rgb(29, 61, 148) 87.6%
+  );
+  /* background-color: #013f4e; */
+}
+
+.home-banner-text {
+  padding-bottom: 1rem;
+}
+
+.home-banner-text h1 {
+  color: #ffffff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+}
+
+.home-banner-text p {
+  color: aqua;
+  font-size: 18px;
+  font-family: "SF nexa-light", Arial, sans-serif;
+}
+
+.home-btn button {
+  border: 1px solid #332d2d;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #332d2d;
+}
+
+.home-btn button:hover {
+  background-color: transparent;
+}
+
+.home-banner img {
+  width: 100%;
+}
+
+/* Home Slider CSS */
+.banner-slider {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-item {
+  position: relative;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.image-container img {
+  height: 570px;
+}
+.blurred-image {
+  width: 100%;
+  height: auto;
+}
+.text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.home-banner-text-top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+}
+
+.home-banner-heading {
+  padding: 50px;
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.home-banner-heading h2 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+  text-transform: uppercase;
+  color: darkslateblue;
+}
+
+.home-banner-heading p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: black;
+  font-family: "SF nexa-light", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.home-banner-text-bottom {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.home-banner-text-bottom-handler {
+  width: 100%;
+  max-width: 100%;
+}
+
+.home-banner-slider-btn {
+  width: 100%;
+  max-width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-image {
+  width: 400px;
+  height: auto;
+}
+
+.custom-arrow-icon {
+  font-size: 124px; /* Adjust the font size as needed */
+}
+
+/* Navigation buttons */
+.slider-button-prev,
+.slider-button-next {
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all;
+  border: none;
+}
+
+/* who we section css */
+.home-heading h2 {
+  text-align: center;
+  margin: 0.5rem 0px;
+  padding: 0.8rem 0px;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+  background-color: #111439;
+  color: #e6e7e8;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* About US Section Css */
+.blockdiv {
+  height: 100%;
+  background-image: linear-gradient(
+    86.3deg,
+    rgb(14, 28, 35) 3.6%,
+    rgb(29, 61, 148) 87.6%
+  );
+  max-width: 70px;
+  width: 100%;
+  margin-left: -10px;
+}
+
+.about-wrp h2 {
+  font-size: 35px;
+  color: #332d2d;
+  padding: 0px 10px;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+}
+
+.about-wrp {
+  padding: 1rem;
+}
+
+.about-wrp p {
+  font-family: "SF nexa-light", Arial, sans-serif;
+  line-height: 1.65;
+  letter-spacing: 0.125px;
+  text-align: justify;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #013f4e;
+}
+
+/* Platform Section start CSS */
+.platform-container {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;;
+
+  /* padding: 50px; */
+}
+
+.platform-container .card {
+  position: relative;
+  width: 400px;
+  height: 320px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+  transition: all 0.5s;
+  box-shadow: 0 35px 80px rgba(33, 184, 249, 0.15);
+  background-image: linear-gradient(
+    86.3deg,
+    rgba(0, 119, 182, 1) 3.6%,
+    rgba(8, 24, 68, 1) 87.6%
+  );
+  border: none;
+}
+
+.platform-container .card:hover {
+  height: 400px;
+}
+
+.platform-container .card .imgBox {
+  position: absolute;
+  top: 20px;
+  width: 300px;
+  height: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: grey;
+  transition: all 0.5s;
+}
+
+.platform-container .card:hover .imgBox {
+  top: -45px;
+  scale: 0.85;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.platform-container .card .imgBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.platform-container .card .plt-content {
+  position: absolute;
+  top: 250px;
+  width: 100%;
+  height: 35px;
+  overflow: hidden;
+  padding: 5px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.platform-container .card:hover .plt-content {
+top: 155px;
+height: 250px;
+}
+
+.platform-container .card .plt-content h2{
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+  
+}
+.platform-container .card .plt-content p{
+  padding: 0px 20px;
+  font-size: 16px;
+  color: aqua;
+}
+
+  .plt-card-btn button{
+    padding: 5px 20px;
+    transition: all 0.5s;
+    box-shadow: 0 35px 80px rgba(33, 184, 249, 0.15);
+    background-image: linear-gradient(
+      86.3deg,
+      rgba(0, 119, 182, 1) 3.6%,
+      rgba(8, 24, 68, 1) 87.6%
+    );
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+/* Platform Section End CSS */
+
+/* Add Media Quries */
+
+@media only screen and (max-width: 1024px) {
+  .blockdiv {
+    display: none;
+  }
+  .home-banner-text h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .pt-head-wrap h3 {
+    font-size: 16px;
+  }
+
+  .home-banner-heading {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .row-home-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .image-container {
+    top: 4rem;
+  }
+
+  .main-container {
+    height: auto;
+    padding: 2rem 0px;
+    margin: 0px;
+  }
+
+  .about-wrp {
+    padding: 0;
+  }
+
+  .about-container {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-wrp h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .home-banner-slider-btn {
+    max-width: 98%;
+  }
+  .home-banner-heading {
+    padding: 15px;
+  }
+
+  .home-banner-heading h2 {
+    font-size: 30px;
+  }
+
+  .home-banner-text h1 {
+    font-size: 30px;
+  }
+
+  .home-banner-text p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+
+  .home-banner-heading {
+    max-width: 100%;
+    padding: 2px 0px;
+  }
+  .home-banner-slider-btn {
+   display: none;
+  }
+  .home-btn {
+    text-align: center;
+  }
+
+  .home-btn button {
+    padding: 3px 15px;
+    font-size: 14px;
+  }
+
+  .home-banner-heading h2 {
+    font-size: 20px;
+  }
+
+  .home-banner-text h1 {
+    font-size: 27px;
+  }
+  .home-heading h2 {
+    font-size: 24px;
+  }
+
+  .home-banner-heading p {
+    font-size: 14px;
+  }
+  .about-wrp h2 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .home-banner-text h1 {
+    font-size: 22px;
+  }
+  .home-heading h2 {
+    font-size: 18px;
+  }
+}

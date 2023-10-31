@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-handler{
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
+.card-handler h5 {
+  text-align: center;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+}
+
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;  
+ margin: 2rem 0rem;
+ cursor: pointer;
+  border-radius: 5px;
+  background-image: linear-gradient( 86.3deg, rgb(62 70 161) 3.6%, rgb(57 63 81) 87.6% );
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease; /* Add a transition for smooth animation */
+}
+.card-container:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Modify the shadow on hover */
+}
+
+.card-container h4{
+  font-family: "SF nexa-bold", Arial, sans-serif;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  margin: 0px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.hover-effect {
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1); /* Scale up the element on hover */
+  color: #54B4D3;
+  opacity: 1; /* Reduce opacity on hover */
+transition: all 0.2s;
+}
+/* You can add more hover styles as needed */
+
+
+.Best-services-hero {
+  background-image: url("../Assets/images/slider7.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  /* min-height: 60vh; */
+  height: 570px;
+}
+
+.Best-services-hero h1 {
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 58px;
+  line-height: 1;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #e6e7e8;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+  padding: 0 20px;
+}
+
+.Best-services-hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Project Section Secon Css */
+
+/* Add Media Quries Here */
+@media (max-width: 1023px) {
+  .Best-services-hero h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .card-container{
+    margin: 1rem 0px;
+    padding: 10px 2px;
+  }
+  .card-container h4 {
+    font-size: 16px;
+    }
+  
+    .Best-services-hero h1 {
+    font-size: 40px;
+  }
+
+
+  .Best-services-hero {
+    height: 450px;
+  }
+}
+
+@media (max-width: 550px) {
+  .Best-services-hero h1 {
+    font-size: 35px;
+  }
+
+}

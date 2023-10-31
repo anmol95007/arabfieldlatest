@@ -1,0 +1,212 @@
+.ecobuy-container {
+  background: url("../Assets/images/slider4.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ecobuy-content {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.ecobuy-content h1 {
+  font-size: 3rem;
+  color: #e6e7e8;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.carousel-text {
+  opacity: 0;
+  font-family: "SF nexa-light", Arial, sans-serif;
+  text-transform: capitalize;
+  color: #e6e7e8;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  color: #e6e7e8;
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.carousel-text p {
+  font-size: 27px;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+}
+
+.carousel-text.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Banner Image-Text Section CSS code start from here */
+.ecobuy-tech-bg {
+  background-color: #e6e7e8;
+  margin: 30px 0px;
+}
+
+.ecobuy-tech {
+  display: flex;
+  align-items: center;
+}
+
+.ecobuy-tech-rotate {
+  display: flex;
+  align-items: center;
+}
+
+.ecobuy-content-title {
+  font-size: 35px;
+  line-height: 64px;
+  color: #332D2D;
+  margin-bottom: 10px;
+  text-align: start;
+  font-family: "SF nexa-bold", Arial, sans-serif;
+}
+
+.ecobuy-content-description {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: start;
+  font-size: 16px;
+  font-family: "SF nexa-light", Arial, sans-serif;
+}
+
+.ecobuy-content-sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.ecobuy-tech-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ecobuy-tech-logo img {
+  width: 100%;
+  max-width: 90%;
+  height: auto;
+  border-radius: 20px;
+}
+
+/* add @media quries start here */
+@media (max-width: 1400px) {
+  .ecobuy-content-title {
+    font-size: 27px;
+  }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+  .carousel-text {
+    font-size: 25px;
+  }
+
+  .ecobuy-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .carousel-text {
+    font-size: 22px;
+  }
+
+  .ecobuy-content h1 {
+    font-size: 2rem;
+  }
+
+  .ecobuy-content-title {
+    text-align: center;
+  }
+
+  .ecobuy-content-description {
+    text-align: center;
+    font-size: 14px;
+  }
+
+
+  .ecobuy-tech-logo img {
+    max-width: 100%;
+  }
+
+  .ecobuy-content-description-align {
+    text-align: center;
+  }
+
+  .ecobuy-content-title-align {
+    text-align: center;
+  }
+
+  .ecobuy-content-sub-align {
+    text-align: center;
+  }
+
+  .ecobuy-tech {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ecobuy-tech-rotate {
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ecobuy-tech-logo {
+    margin: 10px 0px;
+  }
+
+  .ecobuy-content-title {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ecobuy-content-title {
+    font-size: 27px;
+  }
+
+  .ecobuy-content-description {
+    font-size: 14px;
+  }
+
+  .col {
+    flex: unset !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .carousel-text {
+    font-size: 20px;
+    padding: 0px 0.5rem;
+  }
+
+  .ecobuy-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .ecobuy-content-title {
+    font-size: 25px;
+  }
+}
