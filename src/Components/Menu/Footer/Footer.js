@@ -10,9 +10,12 @@ import TrendingDownOutlinedIcon from "@mui/icons-material/TrendingDownOutlined";
 const Footer = () => {
   return (
     <>
-      <footer className="padding_4x" data-aos="zoom-in"
-                  data-aos-easing="linear"
-                  data-aos-duration="1500">
+      <footer
+        className="padding_4x"
+        data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <div className="flex">
           <section className="flex-content padding_1x">
             <h3>Platform</h3>
@@ -50,20 +53,12 @@ const Footer = () => {
             <h3>Address</h3>
             <div className="footer-add-align">
               <ApartmentOutlinedIcon className="address-icon" />
-              <p>
-                178 street - Al Qusais Industrial Area 3 - Dubai - United Arab
-                Emirates
-              </p>
+              <p>Doha, Quatar</p>
             </div>
 
             <div className="footer-add-align">
               <CallIcon className="address-icon" />
-              <p>+ 971 4803 8300 </p>
-            </div>
-
-            <div className="footer-add-align">
-              <FaxOutlinedIcon className="address-icon" />
-              <p> + 971 4803 8301 </p>
+              <p>+974 599 65 952 </p>
             </div>
 
             <div className="footer-add-align">
@@ -95,7 +90,7 @@ const Footer = () => {
         </div>
         <div className="flex">
           <section className="flex-content padding_1x">
-            <p>Copyright ©2023 All rights reserved || Arab Field</p>
+            <p>Copyright ©2023 All rights reserved by Arab Field</p>
           </section>
           <section className="flex-content padding_1x">
             <a href="#">

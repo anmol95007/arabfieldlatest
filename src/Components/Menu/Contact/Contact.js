@@ -42,8 +42,12 @@ const Contact = () => {
       {/* Contact Us Banner Section */}
       <div className="contact-us-banner">
         <section className="ban_sec">
-          <div className="ban_img" data-aos="zoom-in" data-aos-easing="linear"
-                  data-aos-duration="1500">
+          <div
+            className="ban_img"
+            data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <img
               src={contact_banner}
               alt="contact image banner"
@@ -68,7 +72,12 @@ const Contact = () => {
       <section className="contact-page-sec">
         <div className="container contact-container">
           <div className="row">
-            <div className="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">
+            <div
+              className="col-md-4"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+            >
               <div className="contact-info">
                 <div className="contact-info-item">
                   <div className="contact-info-icon">
@@ -78,15 +87,17 @@ const Contact = () => {
                   </div>
                   <div className="contact-info-text">
                     <h2>address</h2>
-                    <span>
-                      178 street - Al Qusais Industrial Area 3 - Dubai United
-                      Arab Emirates
-                    </span>
+                    <span>Doha, Quatar</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">
+            <div
+              className="col-md-4"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+            >
               <div className="contact-info">
                 <div className="contact-info-item">
                   <div className="contact-info-icon">
@@ -101,7 +112,12 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2000">
+            <div
+              className="col-md-4"
+              data-aos="zoom-in"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+            >
               <div className="contact-info">
                 <div className="contact-info-item">
                   <div className="contact-info-icon">
@@ -123,7 +139,7 @@ const Contact = () => {
             <div className="col-md-12">
               <div className="contact-page-map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3607.135663377414!2d55.3870863!3d25.2996457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5db017079b37%3A0x2c4199b02f6451dd!2sMilaya%20Energy%20Oilfield%20%26%20Natural%20Gas!5e0!3m2!1sen!2sin!4v1696528207982!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230886.03811040978!2d51.34718161281465!3d25.284228023713382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2sDoha%2C%20Qatar!5e0!3m2!1sen!2sae!4v1698754674542!5m2!1sen!2sae"
                   width="100%"
                   height="450"
                   style={{ border: "0" }}

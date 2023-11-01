@@ -51,13 +51,18 @@ const GlobalReach = () => {
             </div>
             <div className="text-container">
               <div className="home-banner-text-top">
-                <div className="home-banner-heading" data-aos="zoom-in" data-aos-easing="linear"
-                  data-aos-duration="1500">
+                <div
+                  className="home-banner-heading"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <h2>
-                  your technically-advanced procurement partner for the modern day energy industry.
+                    your technically-advanced procurement partner for the modern
+                    day energy industry.
                   </h2>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
 
@@ -72,10 +77,15 @@ const GlobalReach = () => {
             </div>
             <div className="text-container">
               <div className="home-banner-text-top">
-                <div className="home-banner-heading" data-aos="zoom-in" data-aos-easing="linear"
-                  data-aos-duration="1500">
+                <div
+                  className="home-banner-heading"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <h2>
-                  Arab Field fully integrated online procurement system with a good number of  material client catalogue.
+                    Arab Field fully integrated online procurement system with a
+                    good number of material client catalogue.
                   </h2>
                 </div>
               </div>
@@ -93,12 +103,16 @@ const GlobalReach = () => {
             </div>
             <div className="text-container">
               <div className="home-banner-text-top">
-                <div className="home-banner-heading" data-aos="zoom-in" data-aos-easing="linear"
-                  data-aos-duration="1500">
-                  <h2>      
-                  your virtual procurement team, applying strategic thinking to your purchasing.
+                <div
+                  className="home-banner-heading"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <h2>
+                    your virtual procurement team, applying strategic thinking
+                    to your purchasing.
                   </h2>
-                  
                 </div>
               </div>
             </div>
@@ -115,11 +129,16 @@ const GlobalReach = () => {
             </div>
             <div className="text-container">
               <div className="home-banner-text-top">
-                <div className="home-banner-heading" data-aos="zoom-in" data-aos-easing="linear"
-                  data-aos-duration="1500">
+                <div
+                  className="home-banner-heading"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <h2>
-                  A unique trading hub that realizes savings if you’re looking to sell stock - or buy.
-                  </h2>                  
+                    A unique trading hub that realizes savings if you’re looking
+                    to sell stock - or buy.
+                  </h2>
                 </div>
               </div>
             </div>
@@ -130,9 +149,12 @@ const GlobalReach = () => {
 
       {/* Banner Section code start from here */}
       {/* Banner Image-Text Section code start from here */}
-      <div className="home-heading" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+      <div
+        className="home-heading"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
         <h2>Your Procurement Partner</h2>
       </div>
 
@@ -141,8 +163,12 @@ const GlobalReach = () => {
           <div className="row">
             <div className="global-tech">
               <div className="col col-sm-12 col-md-12 col-lg-6">
-                <div className="global-tech-content" data-aos="zoom-in" data-aos-easing="linear"
-     data-aos-duration="1500">
+                <div
+                  className="global-tech-content"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <div className="global-content-title global-content-title-align">
                     Global Procurement Excellence.
                   </div>
@@ -176,8 +202,12 @@ const GlobalReach = () => {
                 </div>
               </div>
               <div className="col col-sm-12 col-md-12 col-lg-6">
-                <div className="global-tech-logo" data-aos="zoom-in" data-aos-easing="linear"
-     data-aos-duration="1500"> 
+                <div
+                  className="global-tech-logo"
+                  data-aos="zoom-in"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
                   <img src={procurment} />
                 </div>
               </div>
@@ -190,7 +220,7 @@ const GlobalReach = () => {
       {/* Global Map Section code start from here */}
       <div className="g-map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3607.135663377414!2d55.3870863!3d25.2996457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5db017079b37%3A0x2c4199b02f6451dd!2sMilaya%20Energy%20Oilfield%20%26%20Natural%20Gas!5e0!3m2!1sen!2sin!4v1696528207982!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230886.03811040978!2d51.34718161281465!3d25.284228023713382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x44d9319f78cfd4b1!2sDoha%2C%20Qatar!5e0!3m2!1sen!2sae!4v1698754674542!5m2!1sen!2sae"
           width="100%"
           height="600"
           style={{ border: "0" }}

@@ -65,8 +65,14 @@ const Home = () => {
         <Slider {...settings} ref={sliderRef}>
           <div className="slider-item">
             <div className="image-container">
-              <img src={slider6} alt="Banner 5" className="blurred-image" />
+              <img
+                src={slider6}
+                alt="Banner 5"
+                className="blurred-image"
+                style={{ cursor: "pointer" }}
+              />
             </div>
+
             <div className="text-container">
               <div className="home-banner-text-top">
                 <div
@@ -76,6 +82,7 @@ const Home = () => {
                   data-aos-duration="1500"
                 >
                   <h2>Best Steel Distributor & Supplier </h2>
+
                   <p>
                     Arab Field your Best Steel Distributor & Supplier. We
                     deliver excellence in steel distribution, ensuring top-notch
@@ -542,7 +549,7 @@ const Home = () => {
               superior steel products...
             </p>
             <div className="plt-card-btn">
-              <Link to="/best-steel-supplier">
+              <Link to="/best-steel-supplier" exact={true}>
                 <button>Read More</button>
               </Link>
             </div>
