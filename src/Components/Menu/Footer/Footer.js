@@ -53,7 +53,7 @@ const Footer = () => {
             <h3>Address</h3>
             <div className="footer-add-align">
               <ApartmentOutlinedIcon className="address-icon" />
-              <p>Doha, Quatar</p>
+              <p>Doha, Qatar</p>
             </div>
 
             <div className="footer-add-align">
